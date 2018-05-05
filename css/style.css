@@ -15,7 +15,7 @@ html, body {
 }
 
 .nav {
-	background: grey;
+	background: lightgrey;
 }
 
 .nav-sec {
@@ -34,6 +34,7 @@ html, body {
 	background: grey;
 	padding: 10px;
 	margin-top: 10px;
+	text-align: center;
 }
 
 #body {
@@ -46,7 +47,7 @@ html, body {
 	bottom: 0;
 	width: 100%;
 	height: 100px;
-	background: grey;
+	background: lightgrey;
 }
 
 .pic {
@@ -66,4 +67,5 @@ html, body {
 	width: 25px;
 	height: 25px;
 	visibility: hidden;
+	background: lightgrey;
 }
