@@ -13,14 +13,24 @@
 	<!-- Mobile Specific Metas
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	
+	<!-- Script
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous">
+	</script>
+	
 	<!-- FONT
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	
 	
 	<!-- CSS
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="stylesheet" href=".css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Favicon
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,9 +41,38 @@
 
 	<!-- Primary Page Layout
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<p>I guess it worked.</p>
+	<div class="container">
+		<nav id="stickyNav" class="nav">
+			<h1 class="title">Website</h1>
+			<a href=""><span class="u-pull-right nav-sec">page</span></a>
+			<a href=""><span class="u-pull-right nav-sec">page</span></a>
+			<a href=""><span class="u-pull-right nav-sec">page</span></a>
+		</nav>
+		<div id="header">OSRS MEMEs</div>
+		<div id="body">
+			<div>
+				<img class="pic" src="images/rs1.jpg" alt="pic 1">
+			</div>
+			<div>
+				<img class="pic" src="images/rs2.jpg" alt="pic 1">
+			</div>
+			<div>
+				<img class="pic" src="images/rs3.jpg" alt="pic 1">
+			</div>
+			<div>
+				<img class="pic" src="images/rs4.jpg" alt="pic 1">
+			</div>
+		</div>
+		<div id="footer">
+			<p>foot text</p>
+		</div>
+		<div id="backup">
+			<a href="">backup</a>
+		</div>
+	</div>
 
 <!-- End Document
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
