@@ -15,7 +15,7 @@ html, body {
 }
 
 .nav {
-	background: lightgrey;
+	background: #d3d3d300;
 }
 
 .nav-sec {
@@ -24,6 +24,7 @@ html, body {
 	border: 1px solid black;
 	border-radius: 10px;
 	margin: 10px 5px;
+	background: #d3d3d3bf;
 }
 
 #stickyNav {
@@ -67,5 +68,5 @@ html, body {
 	width: 25px;
 	height: 25px;
 	visibility: hidden;
-	background: lightgrey;
+	background: #d3d3d3bf;
 }
