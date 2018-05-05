@@ -33,7 +33,7 @@ html, body {
 }
 
 #header {
-	background: grey;
+	text-decoration: underline;
 	padding: 10px;
 	text-align: center;
 }
