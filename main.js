@@ -9,21 +9,17 @@ $(document).ready(function () {
                 'position': 'fixed',
                     'top': 0
             })
+			$('#backup').slideDown( "slow", function() {
+				
+			})
         } else {
             $('#stickyNav').css({
                 'position': 'relative',
                 'top': ''
             })
+			$('#backup').slideToggle( "slow", function() {
+				
+			})
         }
-		
-		if (totalH < vPos) {
-			$('#backup').css({
-				'visibility': 'visible'
-			})
-		} else {
-			$('#backup').css({
-				'visibility': 'hidden'
-			})
-		}
     });
 });

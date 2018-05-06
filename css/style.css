@@ -61,12 +61,14 @@ html, body {
 }
 
 #backup {
-	display: block;
+	display: none;
 	position: fixed;
 	bottom: 50px;
 	right: 50px;
-	width: 25px;
-	height: 25px;
-	visibility: hidden;
-	background: #d3d3d3bf;
+	width: 35px;
+	height: 35px;
+}
+
+#backup i {
+	font-size: 34px;
 }
