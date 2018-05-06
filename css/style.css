@@ -39,6 +39,7 @@ li {
 
 .nav-sec:hover {
 	text-decoration: underline;
+	background: white;
 }
 
 #stickyNav {
@@ -52,6 +53,7 @@ li {
 }
 
 #body {
+	width: 105%;
 	padding:10px;
 	padding-bottom:100px;   /* Height of the footer */
 }
@@ -132,7 +134,7 @@ li {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: white transparent transparent transparent;
+    border-color: transparent transparent transparent transparent;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
