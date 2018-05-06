@@ -5,6 +5,10 @@ html, body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+li {
+	font-size: large;
+}
+
 .container {
 	min-height:100%;
 	position:relative;
@@ -19,6 +23,7 @@ html, body {
 	background: #d3d3d300;
 	padding: 10px;
 	width: -webkit-fill-available;
+	width: -moz-available;
 }
 
 .nav-sec {
@@ -50,13 +55,14 @@ html, body {
 	bottom: 0;
 	width: 100%;
 	height: 100px;
-	background: lightgrey;
+	background: #dedede;
+	border-top: 1px solid #1eaedb;
 }
 
 .pic {
 	display: block;
 	max-width: 470px;
-	margin: 25px auto;
+	margin: 5px auto;
 	padding: 10px 0 10px 0;
 	border: 2px solid black;
 	background: white;
@@ -64,7 +70,9 @@ html, body {
 
 .sec {
 	margin: 0 auto;
+	padding: 0 0 5px 0;
 	max-width: 500px;
+	box-shadow: 0px 0px 6px 3px #8c8c8c;
 }
 
 .sec:hover {
